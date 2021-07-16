@@ -15,7 +15,7 @@ class person:
         print('Name : %s \nAge : %s' % (self.name, self.age))
 
 # p = person(person.name, person.age)
-
+# p = person(name = 'Sam', age = 25)
 p = person(name = 'Sam')
 p = person(age = 20)
 p.show_name()

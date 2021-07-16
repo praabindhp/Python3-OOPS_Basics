@@ -9,6 +9,11 @@ class User:
     def show_user(self):
         print("The User : %s \nThe Age : %s" % (self.name, self.age))
 
+    # Function Overriding
+    
+    def show_info(self):
+        print("This Is A Child Method")
+
 class FacebookUser(User):
     
     def __init__(self, name, age):

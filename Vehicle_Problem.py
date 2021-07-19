@@ -7,7 +7,6 @@ class Vehicle:
     def fuel_consumption(self):
         pass
  
- 
 class Bus(Vehicle):
  
     def __init__(self, brand, year):
@@ -16,7 +15,6 @@ class Bus(Vehicle):
     def fuel_consumption(self):
         print('Fuel Consumption For Bus...')
  
- 
 class Car(Vehicle):
  
     def __init__(self, brand, year):
@@ -24,8 +22,7 @@ class Car(Vehicle):
  
     def fuel_consumption(self):
         print('Fuel Consumption For Car...')
- 
- 
+
 bus = Bus(brand='Ford', year=1957)
 bus.fuel_consumption()
  
